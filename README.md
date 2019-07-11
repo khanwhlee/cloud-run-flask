@@ -2,8 +2,8 @@
 
 ### Make sure python 3.X.X and virtualenv is installe in you PC
 
-* clone project in some dir
-* open terminal/command prompt
+* Clone project in some dir
+* Open terminal/command prompt
 * Navigate to folder where the project is cloned
 * For Windows run commands
   * python -m venv env
