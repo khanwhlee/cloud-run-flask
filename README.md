@@ -1,4 +1,21 @@
-# python-flask-swagger-demo
+# python-flask-swagger-demo on Google Cloud Run
+My Readme
+我拿了 flasgger demo code 來改寫，並演示如何部署到 Cloud Run 上面。
+
+我一共做了兩件事
+1. 更新 requirements 原本的太舊了
+2. 增加 Dockerfile
+
+Pull 後只需要執行打包
+```
+gcloud builds submit --tag gcr.io/{project_id}/{cloud_run_server_name}
+```
+
+再到 Cloud Run UI 選擇剛剛建立的 image 就可以
+
+
+---
+Original Readme
 
 ### Make sure python 3.X.X and virtualenv is installe in you PC
 
